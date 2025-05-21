@@ -1,4 +1,4 @@
-package com.frontblairmasters.webtoon_app_clone
+package com.frontblairmasters.webtoonappclone
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.frontblairmasters.webtoon_app_clone.ui.theme
+package com.frontblairmasters.webtoonappclone.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun WebtoonappcloneTheme(
+fun WebtoonAppCloneTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

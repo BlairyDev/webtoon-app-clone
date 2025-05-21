@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.frontblairmasters.webtoon_app_clone"
+    namespace = "com.frontblairmasters.webtoonappclone"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.frontblairmasters.webtoon_app_clone"
+        applicationId = "com.frontblairmasters.webtoonappclone"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

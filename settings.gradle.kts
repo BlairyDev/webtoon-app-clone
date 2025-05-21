@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "webtoon-app-clone"
+rootProject.name = "WebtoonAppClone"
 include(":app")
  

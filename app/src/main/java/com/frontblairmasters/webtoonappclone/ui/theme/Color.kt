@@ -1,4 +1,4 @@
-package com.frontblairmasters.webtoon_app_clone.ui.theme
+package com.frontblairmasters.webtoonappclone.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
