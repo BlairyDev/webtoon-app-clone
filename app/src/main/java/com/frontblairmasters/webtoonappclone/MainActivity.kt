@@ -20,10 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             WebtoonAppCloneTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    WebtoonNavigation(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
