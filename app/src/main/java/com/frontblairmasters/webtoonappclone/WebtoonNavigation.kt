@@ -2,11 +2,18 @@ package com.frontblairmasters.webtoonappclone
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.DateRange
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.BottomAppBar
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -17,12 +24,16 @@ import com.frontblairmasters.webtoonappclone.ui.ProfileScreen
 import com.frontblairmasters.webtoonappclone.ui.SearchScreen
 import com.frontblairmasters.webtoonappclone.ui.TrendingScreen
 
-enum class WebtoonScreen() {
-    Home,
-    Trending,
-    Search,
-    Canvas,
-    Profile
+enum class WebtoonScreen(
+    val route: String,
+    val icon: ImageVector,
+    val contentDestination: String
+) {
+    Home("Home", Icons.Filled.Home, "Home icon"),
+    Trending("Trending", Icons.Filled.PlayArrow, "Trending icon"),
+    Search("Search", Icons.Filled.Search, "Search icon"),
+    Canvas("Canvas", Icons.Filled.DateRange, "Canvas icon"),
+    Profile("Profile", Icons.Filled.Person, "Person icon")
 }
 
 
