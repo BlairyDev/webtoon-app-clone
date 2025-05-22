@@ -42,6 +42,9 @@ fun WebtoonNavigation(modifier: Modifier = Modifier) {
     val navController = rememberNavController()
 
     Scaffold(
+        topBar = {
+            WebtoonTopBar()
+        },
         bottomBar = {
             WebtoonBottomBar(navController = navController)
         }
