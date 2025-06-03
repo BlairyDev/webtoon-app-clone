@@ -47,7 +47,7 @@ data class MangaListResponse(
             @Json(name = "isLocked")
             val isLocked: Boolean,
             @Json(name = "lastChapter")
-            val lastChapter: String,
+            val lastChapter: String?,
             @Json(name = "lastVolume")
             val lastVolume: String?,
             @Json(name = "latestUploadedChapter")
