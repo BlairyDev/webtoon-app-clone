@@ -8,13 +8,10 @@ import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.BottomAppBar
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
@@ -23,6 +20,8 @@ import com.frontblairmasters.webtoonappclone.ui.HomeScreen
 import com.frontblairmasters.webtoonappclone.ui.ProfileScreen
 import com.frontblairmasters.webtoonappclone.ui.SearchScreen
 import com.frontblairmasters.webtoonappclone.ui.TrendingScreen
+import com.frontblairmasters.webtoonappclone.ui.common.composables.WebtoonBottomBar
+import com.frontblairmasters.webtoonappclone.ui.common.composables.WebtoonTopBar
 
 enum class WebtoonScreen(
     val route: String,
